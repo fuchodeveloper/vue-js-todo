@@ -60,12 +60,12 @@ button {
 /* Task  area */
 
 .list li {
-    background-color: #3465A4;
+    background-color: #37a45e;
 }
 
 .list li .delete {
     background-color: transparent;
-    border: 1px solid #3465A4;
+    border: 1px solid #37a45e;
     color: #ddd;
     /* Hide the delete button by default*/
     visibility: visible;

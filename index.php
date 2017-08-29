@@ -16,7 +16,7 @@
 
             <input type="checkbox" id="mark-all" v-bind:checked="areAllSelected" v-on:click="selectAll">
             <input type="text" placeholder="Type some awesome task " class="text-input" v-model="newTask" v-on:keyup.enter="addTask">
-            <button v-on:click="clearList">Clear list</button>
+            <button v-on:click="clearList">Clear Tasks</button>
 
         </section>
 
