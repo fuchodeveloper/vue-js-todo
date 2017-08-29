@@ -1,10 +1,9 @@
-//Create a new Vue instance
+//Create a new Vue instance and attach it to the #todo element in our html
 new Vue({
 
-    //Bind this Vue instance to our container div with an ID of todo
     el: "#todo",
 
-    //This is where the data for our application will be held
+    //Holds our application data
     data: {
         newTask: "",
         taskList: []
@@ -19,7 +18,7 @@ new Vue({
         },
     },
 
-    //This is where we will register the methods we want to use in our application
+    //The methods we want to use in our application
     methods: {
 
         addTask: function() {
